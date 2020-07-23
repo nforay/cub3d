@@ -1,7 +1,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b6f6463b200e4c5b8afe79afe34e45ee)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nforay/cub3d&amp;utm_campaign=Badge_Grade)
 
 # cub3d
-Ce projet est inspiré du jeu éponyme mondialement connu, considéré comme le premier FPS jamais développé. Il vous permettra d’explorer la technique du ray-casting. Votre objectif est de faire une vue dynamique au sein d’un labyrinthe, dans lequel vous devrez trouver votre chemin.
+This project is inspired by the world-famous eponymous 90’s game, whichwas the first FPS ever. It will enable you to explore ray-casting. Your goal will be tomake a dynamic view inside a maze, in which you’ll have to find your way.
 
 ## Note
 ***115/100*** :white_check_mark:
