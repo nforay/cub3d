@@ -1,10 +1,13 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b6f6463b200e4c5b8afe79afe34e45ee)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nforay/cub3d&amp;utm_campaign=Badge_Grade)
 
 # cub3d
-This project is inspired by the world-famous eponymous 90’s game, whichwas the first FPS ever. It will enable you to explore ray-casting. Your goal will be tomake a dynamic view inside a maze, in which you’ll have to find your way.
+This project is inspired by the world-famous eponymous 90’s game, which was the first FPS ever. It will enable you to explore ray-casting. Your goal will be to make a dynamic view inside a maze, in which you’ll have to find your way.
 
 ## Note
 ***115/100*** :white_check_mark:
+
+## Prerequisites
+`sudo apt-get install libbsd-dev libx11-dev libxext-dev`
 
 ## Utilisation
 
