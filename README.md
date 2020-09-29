@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/afb5598d93e64cde8cad57e3a98256c2)](https://app.codacy.com/gh/nforay/cub3d?utm_source=github.com&utm_medium=referral&utm_content=nforay/cub3d&utm_campaign=Badge_Grade)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b6f6463b200e4c5b8afe79afe34e45ee)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nforay/cub3d&amp;utm_campaign=Badge_Grade)
 
 # cub3d
