@@ -80,7 +80,7 @@ void		put_sprite_to_img(t_params *p, t_spr_cast *s, int x, int y)
 			d = y * 256 - p->h * 128 + s->curr->spriteheight * 128;
 			s->tex.y = ((d * s->img->height) / s->curr->spriteheight) / 256;
 			col = getpixelcolor(s->img, s->tex.y, s->tex.x);
-			if (((col & 0xFFFF00FF) != 0) || !(col & 0xFF00FF00))
+			if (!(col == (int)0xFF00FF00))
 			{
 				my_mlx_pixel_put(&p->img, x, y, shade_sprite_color(p, *s, col));
 				if (BONUS && sprite_hitscan(p, x, y))

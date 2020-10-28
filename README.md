@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b6f6463b200e4c5b8afe79afe34e45ee)](https://www.codacy.com?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nforay/cub3d&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/03efa6450cb54dfea18446eef947abf3)](https://www.codacy.com/gh/nforay/cub3d/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nforay/cub3d&amp;utm_campaign=Badge_Grade)
 
 # cub3d
 This project is inspired by the world-famous eponymous 90’s game, which was the first FPS ever. It will enable you to explore ray-casting. Your goal will be to make a dynamic view inside a maze, in which you’ll have to find your way.
@@ -20,6 +20,12 @@ This project is inspired by the world-famous eponymous 90’s game, which was th
 If you are running Linux the controls are based on a AZERTY keyboard and on MAC a QWERTY keyboard.
 
 ZQSD / Arrows : Move and Strafe
+
+### Bonus controls:
+Bonus version enable mouse camera control, you can change mouse sensitivity by setting `ROT <int>` in the cub file and movement speed (basically the speed at which the game is running) by setting `SP <int>`.
+Default ROT is 5 and default SP is 4.
+You should play around with these depending of your computer specs.
+
 ### Bonus keybinds:
 | Key | Action |
 |--|--|
@@ -42,5 +48,7 @@ ZQSD / Arrows : Move and Strafe
 | Numpad6 | Spinning cylinder |
 | Numpad7 | (Toggle) Angled wall (2 diagonals) |
 | Numpad8 | (Toggle) Rounded wall (one for each corner) |
+
+[valgrind_log](https://gist.github.com/nforay/cc2233d9e3b6daee35bdc844f8451363)
 
 [Video preview](https://streamable.com/sqpsp6)

@@ -105,6 +105,7 @@ void		quit(t_params *params)
 		destroy_bonus_images(params);
 	if (!(params->captureframe) || (params->parser & PARSER_WIN))
 		mlx_destroy_window(params->vars.mlx, params->vars.win);
+	mlx_destroy_display(params->vars.mlx);
 	free(params->vars.mlx);
 	exit(EXIT_SUCCESS);
 }
